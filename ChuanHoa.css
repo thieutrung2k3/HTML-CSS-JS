@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	font-family: tahoma;
+	font-size: 25px;
+}
+.menu_main{
+	width: auto;
+	height: 50px;
+	background-color: whitesmoke;
+}
+ul.menu_first > li{
+	line-height: 50px;
+	float: left;
+	display: block;
+	position: relative;
+	padding: 0px 20px 0px 20px;
+}
+ul.menu_sc{
+	padding-right: 5px;
+	list-style: none;
+	width: 100px;
+	height: 150px;
+	background-color: whitesmoke;
+	position: absolute;
+	display: none;
+}
+
+ul.menu_first > li:hover{
+	color: rebeccapurple;
+}
+ul.menu_first > li:hover > ul.menu_sc{
+	display: block;
+	color: black;
+}
+
+.chuanhoa{
+	margin-top: 50px;
+	width: 500px;
+	height: 150px;
+	padding-top: 50px;
+	border: 1px solid red;
+}
+
+th{
+	padding: 10px;
+}
+caption{
+	font-size: 20px;
+}
+
+
